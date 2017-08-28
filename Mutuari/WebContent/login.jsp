@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
-<jsp:directive.page import="java.util.Date"/>
 	<jsp:directive.page contentType="text/html; charset=ISO-8859-1" 
 		pageEncoding="ISO-8859-1" session="false"/>
 	<jsp:output doctype-root-element="html"
@@ -17,7 +16,7 @@
 	<ul>
 		<li><a href="company.jsp">Mutuari</a></li>
 		<li style="float: right;"><a href="#">
-			<%Date d = new Date();%>
+			<% Date d = new Date(); %>
 			<%=d.toString()%></a></li>
 	</ul>
 
@@ -39,5 +38,4 @@
 	</div>
 
 </body>
-</html>
 </jsp:root>
